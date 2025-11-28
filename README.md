@@ -51,6 +51,11 @@ py -m pip install pandas numpy matplotlib scipy
     - `reversed_copy(arr)`: returns a reversed copy using slicing (`arr[::-1]`).
   - Running the script prints the original array, a reversed copy, and the array after in-place reversal.
 
+- `slopeAndIntercept.py`
+  - Small utility that computes the slope between two points.
+  - Contains `slope(x1, y1, x2, y2)` which returns `(y2 - y1) / (x2 - x1)`.
+  - The script includes a sample `print(slope(80, 240, 90, 260))` demonstrating usage.
+
 
 ## Common Issues & Troubleshooting
 
