@@ -56,6 +56,11 @@ py -m pip install pandas numpy matplotlib scipy
   - Contains `slope(x1, y1, x2, y2)` which returns `(y2 - y1) / (x2 - x1)`.
   - The script includes a sample `print(slope(80, 240, 90, 260))` demonstrating usage.
 
+- `NewPLotGraph.py`
+  - Script that reads `data.csv`, coerces `Average_Pulse` and `Calorie_Burnage` to numeric types, drops rows with missing values in those columns, and produces a line plot of `Calorie_Burnage` versus `Average_Pulse`.
+  - Sets axis limits (x: 0–150, y: 0–400), saves the figure to `plot.png`, and attempts to open the image with the OS default viewer on Windows.
+  - Uses the Matplotlib `Agg` backend so it can run headless; optional notes in the script explain how to pipe PNG binary to stdout or run interactively by removing the backend override.
+
 
 ## Common Issues & Troubleshooting
 
