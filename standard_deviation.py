@@ -19,3 +19,6 @@ print(cv)
 # 1. Read `data.csv` using spaces as thousands separators (`thousands=' '`).
 # 2. Keep numeric columns only (`select_dtypes(include=[np.number])`).
 # 3. Compute and print standard deviation per numeric column (`std(axis=0)`).
+# 4. Compute and print coefficient of variation per column (std / mean).
+# Note: coerce non-numeric tokens with `pd.to_numeric(..., errors='coerce')`.
+
