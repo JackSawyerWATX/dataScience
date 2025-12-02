@@ -63,8 +63,9 @@ py -m pip install pandas numpy matplotlib scipy
 
 - `standard_deviation.py`
   - Reads `data.csv` with `thousands=' '` to parse numbers like `9 000` correctly.
-  - Selects numeric columns and computes the standard deviation per column (`std(axis=0)`).
-  - Prints the resulting pandas Series of standard deviations.
+  - Selects numeric columns and computes per-column statistics: mean and standard deviation.
+  - Computes coefficient of variation (std / mean) per column and prints both std and CV.
+  - Prints the resulting pandas Series of standard deviations and CV; watch for zero means when interpreting CV.
 
 - `requirements.txt`
   - Lists core dependencies: `pandas`, `numpy`, `matplotlib`, and `scipy`.
