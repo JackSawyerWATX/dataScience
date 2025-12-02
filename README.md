@@ -61,6 +61,14 @@ py -m pip install pandas numpy matplotlib scipy
   - Sets axis limits (x: 0–150, y: 0–400), saves the figure to `plot.png`, and attempts to open the image with the OS default viewer on Windows.
   - Uses the Matplotlib `Agg` backend so it can run headless; optional notes in the script explain how to pipe PNG binary to stdout or run interactively by removing the backend override.
 
+- `standard_deviation.py`
+  - Reads `data.csv` with `thousands=' '` to parse numbers like `9 000` correctly.
+  - Selects numeric columns and computes the standard deviation per column (`std(axis=0)`).
+  - Prints the resulting pandas Series of standard deviations.
+
+- `requirements.txt`
+  - Lists core dependencies: `pandas`, `numpy`, `matplotlib`, and `scipy`.
+
 
 ## Common Issues & Troubleshooting
 
