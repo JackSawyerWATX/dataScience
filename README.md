@@ -70,6 +70,20 @@ py -m pip install pandas numpy matplotlib scipy
 - `requirements.txt`
   - Lists core dependencies: `pandas`, `numpy`, `matplotlib`, and `scipy`.
 
+- `correlation.py`
+  - Reads `data.csv`, coerces `Average_Pulse` and `Calorie_Burnage` to numeric (removing internal spaces), drops rows with missing values, and creates a scatter plot.
+  - By default the script will attempt to open the plot interactively and then prompt whether to save it to `correlation_plot.png`.
+  - CLI options:
+    - `--out FILE` : set output filename (default `correlation_plot.png`).
+    - `--no-open` : do not open/show the plot window.
+    - `--no-save` : do not save the plot to disk (attempt to show only).
+  - The script attempts to select an interactive backend (`TkAgg`) when appropriate and falls back to `Agg` in headless environments.
+
+- `correlation_simplified.py`
+  - Minimal helper that reads `data.csv` (handles `thousands=' '` and `skipinitialspace=True`) and produces a scatter plot of `Calorie_Burnage` vs `Average_Pulse` using `DataFrame.plot(kind='scatter')`.
+  - Calls `plt.show()` to display the plot; it is intended for interactive use and will require a GUI backend.
+  - Note: the script drops missing values after constructing the plot; for accurate plotted data consider dropping NA before plotting.
+
 
 ## Common Issues & Troubleshooting
 
