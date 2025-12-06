@@ -67,6 +67,31 @@ py -m pip install pandas numpy matplotlib scipy
   - Computes coefficient of variation (std / mean) per column and prints both std and CV.
   - Prints the resulting pandas Series of standard deviations and CV; watch for zero means when interpreting CV.
 
+- `variance.py`
+  - Reads `data.csv` (handles space-thousands) and coerces columns to numeric.
+  - Drops rows with any non-numeric or missing values and prints per-column variance (pandas `DataFrame.var`).
+
+- `correlation.py`
+  - Full-featured scatter plot script for `Average_Pulse` vs `Calorie_Burnage`.
+  - Attempts to use an interactive backend when appropriate; shows the plot and prompts whether to save it (or use `--no-save` / `--no-open`).
+  - Default save filename: `correlation_plot.png` (override with `--out`).
+
+- `correlation_simplified.py`
+  - Minimal helper that reads `data.csv` (handles `thousands=' '` and `skipinitialspace=True`) and produces a scatter plot of `Calorie_Burnage` vs `Average_Pulse` using `DataFrame.plot(kind='scatter')`.
+  - Calls `plt.show()` to display the plot; intended for interactive use.
+
+- `zero_correlation_coefficient.py`
+  - Small script that plots `Duration` vs `Max_Pulse` from `data.csv` as a scatter plot.
+  - Ensure the plotted columns are numeric (remove internal spaces) before plotting to avoid categorical-axis errors.
+
+- `negative_linear_correlation.py`
+  - Example DataFrame constructed from Python dict demonstrating a negative linear correlation (hours worked vs calories burned).
+  - Plots a scatter plot of `Calorie_Burnage` vs `Hours_Work_Before_Training` for demonstration and learning purposes.
+
+- `randomNumber.py`
+  - Utility script that exposes `countdown(n)` implemented iteratively to avoid recursion limits.
+  - When run as a script (`python randomNumber.py`) it counts down from 5000 and prints numbers; import-safe via `if __name__ == '__main__'`.
+
 - `requirements.txt`
   - Lists core dependencies: `pandas`, `numpy`, `matplotlib`, and `scipy`.
 
