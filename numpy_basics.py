@@ -70,3 +70,28 @@ print(anotherArr.dtype)
 fruits = np.array(['apple', 'banana', 'pineapple'])
 
 print(fruits.dtype)
+
+# This method doesn't work:
+# convertValue = np.array(['a', '2', '3'], dtype='i')
+# it must be copy it with astype()
+
+convertValue = np.array([1.2, 2.3, 3.4])
+print(convertValue)
+print(convertValue.dtype)
+
+newArray = convertValue.astype('i')
+
+print(newArray)
+print(newArray.dtype)
+
+newArray = convertValue.astype(int)
+
+print(newArray)
+print(newArray.dtype)
+
+anotherArray = np.array([-1, 0, 1])
+
+anotherArray2 = anotherArray.astype(bool)
+
+print(anotherArray2)
+print(anotherArray2.dtype)
