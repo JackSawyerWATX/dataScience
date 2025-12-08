@@ -63,4 +63,10 @@ print(anotherArr[0:2, 2])
 # From both elements, slice index 1 up to but not including index 4, and return a 2-D array
 print(anotherArr[0:2, 1:4])
 
+print(arr.dtype)
 
+print(anotherArr.dtype)
+
+fruits = np.array(['apple', 'banana', 'pineapple'])
+
+print(fruits.dtype)
