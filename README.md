@@ -39,6 +39,9 @@ py .\negative_linear_correlation.py
 # Sorting examples: demonstrates numeric, string, boolean, and 2D sorts
 py .\sorting_arrays.py
 
+# Data distribution: histogram, KDE, and summary statistics
+py .\data_distribution.py
+
 # Example advanced usage for correlation.py (overrides and flags):
 py .\correlation.py --out myplot.png        # save to myplot.png instead of default
 py .\correlation.py --no-open               # do not open/show the plot window
@@ -73,6 +76,8 @@ Below is a concise description of each file currently present in the `dataScienc
 - `reshaping_arrays.py`: demonstrates NumPy array reshaping examples (`reshape` to 2D and 3D), using `-1` for an inferred dimension, and shows whether a reshape returns a view or copy.
 - `slopeAndIntercept.py`: simple slope computation utilities and examples.
 - `standard_deviation.py`: computes per-column standard deviation, mean, and coefficient of variation from `data.csv` and prints results; reads numbers with space-thousands.
+ - `data_distribution.py`: plots histograms and kernel density estimates (KDEs) and prints summary statistics (mean, median, std); useful for exploring column distributions.
+ - `standard_deviation.py`: computes per-column standard deviation, mean, and coefficient of variation from `data.csv` and prints results; reads numbers with space-thousands.
 - `standard_deviation_2.py`: alternate or intermediate version of the standard deviation script (inspect for differences).
 - `variance.py`: computes and prints per-column variance for numeric columns (coerces numeric values and drops rows with missing data).
 - `zero_correlation_coefficient.py`: plots `Duration` vs `Max_Pulse` (ensure columns are coerced to numeric to avoid categorical-axis errors).
