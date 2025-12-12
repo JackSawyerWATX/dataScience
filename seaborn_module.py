@@ -5,4 +5,3 @@ import seaborn as sns
 sns.displot([0, 11, 32, 53, 74, 95, 26, 47, 68, 89, 110], kind="kde")
 plt.show()
 
-
