@@ -126,6 +126,7 @@ Below is a concise description of each file currently present in the `dataScienc
 - `anArray.py`: small utilities to reverse arrays; demo of in-place and copy-based reversal.
 - `array_iteration.py`: examples showing iteration over arrays/lists with simple loops (small demonstrations).
 - `array_join.py`: small examples demonstrating how to join/concatenate NumPy arrays and Python lists.
+ - `array_filter.py`: examples showing how to filter NumPy arrays using boolean masks and `np.where`; demonstrates combining conditions and selecting elements.
 - `copy_and_view.py`: demonstrates NumPy copy vs view behavior and how operations affect underlying memory.
  - `sorting_arrays.py`: demonstrates sorting numeric arrays, strings, booleans, and 2D arrays; shows how to call `pd.Series(...).describe()` on numeric arrays.
  - `copy_and_view.py`: demonstrates NumPy copy vs view behavior and how operations affect underlying memory.
