@@ -7,7 +7,7 @@ This repository contains small Python scripts used to explore and visualize a sa
 Install the project dependencies with pip (recommended to use a virtual environment):
 
 ```powershell
-py -m pip install pandas numpy matplotlib scipy
+py -m pip install pandas numpy matplotlib scipy seaborn
 ```
 
 ## Quick run examples (PowerShell)
@@ -44,6 +44,9 @@ py .\data_distribution.py
 
 # Gaussian distribution: generate normal samples and plot KDE with seaborn
 py .\Gaussian_distribution.py
+
+# Binomial distribution: simulate counts of successes (n trials) and visualize
+py .\binomial_distribution.py
 
 # Example advanced usage for correlation.py (overrides and flags):
 py .\correlation.py --out myplot.png        # save to myplot.png instead of default
