@@ -51,6 +51,9 @@ py .\binomial_distribution.py
 # Chi-square distribution: generate chi-square samples and visualize PDF/KDE
 py .\chi_square_distribution.py
 
+# Rayleigh distribution: generate Rayleigh samples and visualize PDF/KDE
+py .\rayleigh_distribution.py
+
 # Example advanced usage for correlation.py (overrides and flags):
 py .\correlation.py --out myplot.png        # save to myplot.png instead of default
 py .\correlation.py --no-open               # do not open/show the plot window
@@ -98,6 +101,8 @@ Below is a concise description of each file currently present in the `dataScienc
 - `seaborn_module.py`: small helper or demo around seaborn usage (inspect file for specifics).
 - `search_array.py`: examples of searching and indexing arrays using `np.where` and `np.searchsorted`.
 - `chi_square_distribution.py`: demonstrates generating chi-square distributed samples (e.g. via `numpy.random.chisquare`) and visualizing the distribution (histogram/KDE).
+- `chi_square_distribution.py`: demonstrates generating chi-square distributed samples (e.g. via `numpy.random.chisquare`) and visualizing the distribution (histogram/KDE).
+- `rayleigh_distribution.py`: demonstrates generating Rayleigh-distributed samples (e.g. via `numpy.random.rayleigh`) and visualizing the distribution (histogram/KDE).
 - `shape.py`: small examples around shape and dimension manipulation in NumPy.
 - `shuffling_arrays.py`: examples showing how to shuffle arrays with NumPy.
 - `slope_and_intercept.py`: simple slope/intercept computation utilities and examples.
