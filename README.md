@@ -1,4 +1,4 @@
-dataScience — repository overview
+### Data Science Practice — Repository Overview
 
 This repository contains small Python scripts used to explore and visualize a sample `data.csv` dataset. The scripts include data preparation utilities, plotting helpers, and small example programs.
 
