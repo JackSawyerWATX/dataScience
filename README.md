@@ -99,12 +99,8 @@ Below is a concise description of each file currently present in the `dataScienc
 - `requirements.txt`: lists core Python packages used by the examples (`pandas`, `numpy`, `matplotlib`, `scipy`, `seaborn`).
 - `reshaping_arrays.py`: demonstrates NumPy array reshaping examples and view/copy behavior.
 - `seaborn_module.py`: small helper or demo around seaborn usage (inspect file for specifics).
-- `search_array.py`: examples of searching and indexing arrays using `np.where` and `np.searchsorted`.
-- `chi_square_distribution.py`: demonstrates generating chi-square distributed samples (e.g. via `numpy.random.chisquare`) and visualizing the distribution (histogram/KDE).
-- `chi_square_distribution.py`: demonstrates generating chi-square distributed samples (e.g. via `numpy.random.chisquare`) and visualizing the distribution (histogram/KDE).
-- `rayleigh_distribution.py`: demonstrates generating Rayleigh-distributed samples (e.g. via `numpy.random.rayleigh`) and visualizing the distribution (histogram/KDE).
-- `shape.py`: small examples around shape and dimension manipulation in NumPy.
-- `shuffling_arrays.py`: examples showing how to shuffle arrays with NumPy.
+- `pareto_distribution.py`: example generating Pareto-distributed samples and visualizing histogram/KDE.
+- `ufuncs.py`: examples demonstrating NumPy universal functions (ufuncs) and vectorized operations for performance.
 - `slope_and_intercept.py`: simple slope/intercept computation utilities and examples.
 - `sorting_arrays.py`: demonstrates sorting numeric arrays, strings, booleans, and 2D arrays; shows `pd.Series(...).describe()` usage.
 - `splitting_arrays.py`: shows how to split arrays with `np.array_split` and how leftover elements are distributed.
