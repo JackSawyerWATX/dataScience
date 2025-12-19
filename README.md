@@ -182,17 +182,11 @@ If you'd like, tell me which additions you prefer and I'll apply them.
 
 The project uses the following Python libraries:
 
-- **Pandas**: used for structured data operations (importing files, creating DataFrames, and data preparation).
+- `ufunc_functions.py`: collection of helper ufunc examples and small utilities showing vectorized numeric operations and performance notes.
 - **NumPy**: numerical operations and N-dimensional arrays.
+
 - **Matplotlib**: plotting and visualization.
+
 - **SciPy**: scientific utilities, including linear algebra modules.
+
 *** Begin Patch
-*** End Patch
-## Common Issues & Troubleshooting
-
-- If `dropna()` appears to have no effect, check that the CSV was parsed into columns (not read as a single object column). Use the diagnostics in `dataPreparation.py` to confirm parsing.
-- If numeric columns contain values like `'9 000'` or `'AF'`, convert with `pd.to_numeric(..., errors='coerce')` and then `dropna` to remove non-numeric rows.
-- For parser warnings about malformed lines, inspect `data.csv` at the indicated line number to fix quoting or delimiter problems.
-
-
-
