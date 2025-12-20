@@ -115,6 +115,7 @@ Below is a concise description of each file currently present in the `dataScienc
 - `uniform_distribution.py`: example generating uniform-distributed random samples and visualization.
 - `variance.py`: computes and prints per-column variance for numeric columns.
 - `zero_correlation_coefficient.py`: plots `Duration` vs `Max_Pulse` and demonstrates scatter plotting.
+- `ufunc_logs.py`: small utilities that demonstrate logging of ufunc performance and sample timing outputs.
 
 # dataScience — repository overview
 
