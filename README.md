@@ -117,6 +117,8 @@ Below is a concise description of each file currently present in the `dataScienc
 - `zero_correlation_coefficient.py`: plots `Duration` vs `Max_Pulse` and demonstrates scatter plotting.
 - `ufunc_logs.py`: small utilities that demonstrate logging of ufunc performance and sample timing outputs.
 
+- `summations.py`: examples demonstrating summation operations (`sum`, `cumsum`), axis-wise aggregates, and simple numeric reductions using NumPy and Python built-ins.
+
 # dataScience — repository overview
 
 This repository contains small Python scripts used to explore and visualize a sample `data.csv` dataset. The scripts include data preparation utilities, plotting helpers, NumPy examples, and small demonstration programs.
