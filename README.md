@@ -98,6 +98,7 @@ Below is a concise description of each file currently present in the `dataScienc
 - `poisson_distribution.py`: example generating Poisson-distributed samples and visualization.
 - `random_number.py`: random-number demo using NumPy with a non-conflicting filename.
 - `random_python.py`: simple NumPy random example demonstrating `numpy.random.randint` and recommended import aliasing.
+- `products.py`: examples demonstrating element-wise, aggregated and cumulative product operations using NumPy (`np.prod`, `np.cumprod`).
 - `requirements.txt`: lists core Python packages used by the examples (`pandas`, `numpy`, `matplotlib`, `scipy`, `seaborn`).
 - `reshaping_arrays.py`: demonstrates NumPy array reshaping examples and view/copy behavior.
 - `seaborn_module.py`: small helper or demo around seaborn usage (inspect file for specifics).
