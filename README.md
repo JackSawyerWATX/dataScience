@@ -100,6 +100,7 @@ Below is a concise description of each file currently present in the `dataScienc
 - `random_python.py`: simple NumPy random example demonstrating `numpy.random.randint` and recommended import aliasing.
 - `products.py`: examples demonstrating element-wise, aggregated and cumulative product operations using NumPy (`np.prod`, `np.cumprod`).
 - `differences.py`: examples demonstrating element-wise differences and array delta operations using NumPy (e.g., subtraction and `np.diff`).
+- `lcm.py`: example computing least common multiple (LCM) for integers using `math.gcd` or `numpy.lcm`.
 - `requirements.txt`: lists core Python packages used by the examples (`pandas`, `numpy`, `matplotlib`, `scipy`, `seaborn`).
 - `reshaping_arrays.py`: demonstrates NumPy array reshaping examples and view/copy behavior.
 - `seaborn_module.py`: small helper or demo around seaborn usage (inspect file for specifics).
