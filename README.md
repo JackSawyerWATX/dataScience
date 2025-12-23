@@ -102,6 +102,7 @@ Below is a concise description of each file currently present in the `dataScienc
 - `differences.py`: examples demonstrating element-wise differences and array delta operations using NumPy (e.g., subtraction and `np.diff`).
 - `lcm.py`: example computing least common multiple (LCM) for integers using `math.gcd` or `numpy.lcm`.
 - `gcd.py`: example computing greatest common divisor (GCD) for integers using `math.gcd` or `numpy.gcd`.
+- `trigonometric.py`: examples demonstrating NumPy trigonometric functions (`np.sin`, `np.cos`, `np.tan`) and radian/degree conversions.
 - `requirements.txt`: lists core Python packages used by the examples (`pandas`, `numpy`, `matplotlib`, `scipy`, `seaborn`).
 - `reshaping_arrays.py`: demonstrates NumPy array reshaping examples and view/copy behavior.
 - `seaborn_module.py`: small helper or demo around seaborn usage (inspect file for specifics).
