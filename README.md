@@ -104,6 +104,7 @@ Below is a concise description of each file currently present in the `dataScienc
 - `gcd.py`: example computing greatest common divisor (GCD) for integers using `math.gcd` or `numpy.gcd`.
 - `trigonometric.py`: examples demonstrating NumPy trigonometric functions (`np.sin`, `np.cos`, `np.tan`) and radian/degree conversions.
 - `hyperbolic_functions.py`: examples demonstrating NumPy hyperbolic functions (`np.sinh`, `np.cosh`, `np.tanh`) and their inverses.
+- `set_operations.py`: examples demonstrating set operations using Python `set` and NumPy helpers (`np.union1d`, `np.intersect1d`, `np.setdiff1d`).
 - `requirements.txt`: lists core Python packages used by the examples (`pandas`, `numpy`, `matplotlib`, `scipy`, `seaborn`).
 - `reshaping_arrays.py`: demonstrates NumPy array reshaping examples and view/copy behavior.
 - `seaborn_module.py`: small helper or demo around seaborn usage (inspect file for specifics).
