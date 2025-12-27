@@ -175,6 +175,10 @@ py .\negative_linear_correlation.py
 - If numeric columns contain values like `'9 000'` or `'AF'`, convert with `pd.to_numeric(..., errors='coerce')` and then `dropna` to remove non-numeric rows.
 - If a local file shadows a standard library module (e.g., `random.py`), rename the local file to avoid import problems.
 
+## Large Files Excluded from Version Control
+
+- **`photo.jpg`**: A 361.54 MB image file that is kept locally but excluded from git tracking. This file exceeds GitHub's 100 MB file size limit and has been added to `.gitignore` to prevent push failures. The file was previously committed and required history rewriting with `git filter-branch` to remove it completely from the repository's commit history.
+
 ## Next steps (optional)
 
 - Save cleaned CSV output from `data_preparation.py` as `cleaned_data.csv` for downstream scripts.
