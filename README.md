@@ -45,6 +45,9 @@ py .\data_distribution.py
 # Gaussian distribution: generate normal samples and plot KDE with seaborn
 py .\Gaussian_distribution.py
 
+# Linear regression: perform linear regression on Average_Pulse vs Calorie_Burnage
+py .\linear_regression.py
+
 # Binomial distribution: simulate counts of successes (n trials) and visualize
 py .\binomial_distribution.py
 
@@ -87,6 +90,7 @@ Below is a concise description of each file currently present in the `dataScienc
 - `Gaussian_distribution.png`: example output image for the Gaussian distribution example.
 - `health_plot.jpg`: example image (binary file) in the repository.
 - `input_something.py`: small interactive input demo script.
+- `linear_regression.py`: performs linear regression on `Average_Pulse` vs `Calorie_Burnage` from `data.csv` using scipy.stats.linregress; displays scatter plot with regression line.
 - `logistic_distribution.py`: example showing logistic-distributed random samples and visualization.
 - `main.py`: script runner that discovers and executes other Python scripts in isolated subprocesses (safe automation).
 - `multinomial_distribution.py`: demonstrates sampling from a multinomial distribution.
